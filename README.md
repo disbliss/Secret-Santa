@@ -13,4 +13,4 @@ Operation:
 
 Future implementation:
   - Take in email addresses as well and send the emails automatically.
-    ~ Probably best implemented by space separating name and email
+    - Probably best implemented by space separating name and email
