@@ -24,8 +24,8 @@ peopleMatchList = copy.deepcopy(peopleList)
 usedIndexes = []
 os.makedirs("Santa Files")
 
-#Goes through each person in the list, finds the person they are giving a
-# gift too, and creates a text file with their
+#Goes through each person in the list, finds the person they are giving a gift too, 
+# and creates a text file with the giver as the filename, with the person they are giving to inside.
 for person in peopleList:
 	matchIndex = random.randint(0, len(peopleMatchList)-1)
 	while ((matchIndex in usedIndexes) or (person == peopleMatchList[matchIndex])):
